@@ -1,6 +1,7 @@
 
 set PATH=c:/OSGeo4W/bin;C:\msys64/usr/bin/
 
+echo %PATH%
 dir c:/OSGeo4W/bin
 
 echo test_call_sh.py
