@@ -1,5 +1,8 @@
 #!/bin/sh
 
+which bash
+which sh
+
 echo $PATH
 
 echo ""
