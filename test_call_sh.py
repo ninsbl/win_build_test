@@ -8,4 +8,4 @@ print("------------------------")
 print(os.environ["PATH"])
 print("------------------------")
 
-subprocess.Popen(["sh", "-e", "-x", "test.bash"])
+subprocess.Popen(["sh", "-e", "-x", "test.sh"])
