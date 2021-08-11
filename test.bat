@@ -1,7 +1,7 @@
 
 set PATH=c:/OSGeo4W/bin
 
-'c:\\OSGeo4W\\bin\\python.exe'
+dir c:/OSGeo4W/bin
 
 echo test.py
 c:/OSGeo4W/bin/python3 test.py
