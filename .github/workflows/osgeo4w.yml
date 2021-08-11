@@ -30,4 +30,4 @@ jobs:
       - name: Install MSYS2 packages
         run: C:\msys64\usr\bin\pacman.exe --noconfirm -S tar make diffutils git dos2unix zip mingw-w64-x86_64-toolchain mingw-w64-x86_64-python3-six
       - name: Run tests
-        run: test.bat
+        run: Start-Process test.bat
