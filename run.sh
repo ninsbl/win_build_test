@@ -1,2 +1,1 @@
-#!/bin/bash
-/c/osgeo42/bin/python3 test_call_sh.py
+C:/osgeo4w/bin/python3.exe test_call_sh.py
