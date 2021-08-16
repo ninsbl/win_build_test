@@ -1,1 +1,1 @@
-.7batch_script.bat $@
+./batch_script.bat $@
