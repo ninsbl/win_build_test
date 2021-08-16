@@ -20,3 +20,9 @@ echo ""
 echo ""
 echo test3.py
 ./test3.py
+
+echo ""
+echo "########################################"
+echo ""
+echo test
+test
