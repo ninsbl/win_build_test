@@ -1,1 +1,1 @@
-./batch_script.bat $@
+@"%GRASS_PYTHON%" "batch_script.py" %*
