@@ -1,1 +1,1 @@
-@"%GRASS_PYTHON%" "batch_script.py" %*
+cmd /c "batch_script.py" %*
