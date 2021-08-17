@@ -31,7 +31,7 @@ if __name__ == '__main__':
         '-b',
         type=bool,
         dest='b',
-        required=True,
+        action='store_true',
         help='Path to a file with observations '
              '(only working directory with files when using -d flag)')
 
