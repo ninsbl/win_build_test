@@ -29,7 +29,6 @@ if __name__ == '__main__':
 
     parser.add_argument(
         '-b',
-        type=bool,
         dest='b',
         action='store_true',
         default=True,
