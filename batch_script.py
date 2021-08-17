@@ -22,7 +22,6 @@ if __name__ == '__main__':
     parser.add_argument(
         'path',
         type=str,
-        dest='path',
         required=True,
         help='Path to a file with observations '
              '(only working directory with files when using -d flag)')
@@ -38,7 +37,6 @@ if __name__ == '__main__':
     parser.add_argument(
         'int',
         type=int,
-        dest='int',
         required=True,
         help='Path to a file with observations '
              '(only working directory with files when using -d flag)')
