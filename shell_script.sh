@@ -3,7 +3,8 @@
 which bash
 which sh
 bat_exe=batch_script
-echo "#!/bin/bash\n/c/osgeo4w/bin/python3 ${bat_exe}.py \$@" > "$bat_exe"
+echo "#!/bin/bash
+/c/osgeo4w/bin/python3 ${bat_exe}.py \$@" > "$bat_exe"
 echo $PATH
 echo ""
 echo "########################################"
