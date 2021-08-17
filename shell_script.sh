@@ -9,4 +9,5 @@ echo ""
 echo "########################################"
 echo ""
 echo batch_script -path test
-batch_script -path=test -b -int=12
+batch_script path=test -b int=12
+batch_script path=test -b int=12 > tmp
