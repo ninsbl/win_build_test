@@ -3,6 +3,7 @@
 which bash
 which sh
 
+echo $PATH
 echo ""
 echo "########################################"
 echo ""
