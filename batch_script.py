@@ -20,7 +20,7 @@ if __name__ == '__main__':
         description='Import data from a file (or files) on an istSOS server.')
 
     parser.add_argument(
-        '-path',
+        'path',
         type=str,
         dest='path',
         required=True,
@@ -36,7 +36,7 @@ if __name__ == '__main__':
              '(only working directory with files when using -d flag)')
 
     parser.add_argument(
-        '-int',
+        'int',
         type=int,
         dest='int',
         required=True,
