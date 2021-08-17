@@ -8,7 +8,7 @@ import argparse
 def main():
     print([args.path] * 200)
     print([args.int] * 200)
-    print([args.bool] * 200)
+    print([args.b] * 200)
     print(os.environ["PATH"])
     print(sys.executable)
     print(sys.version)
