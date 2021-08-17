@@ -2,7 +2,7 @@
 
 which bash
 which sh
-
+echo "#!/bin/bash\npython3 batch_script.py \"$@\"" > batch_script
 echo $PATH
 echo ""
 echo "########################################"
