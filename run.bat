@@ -7,8 +7,8 @@ dir "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Auxiliary
 dir "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Auxiliary/VS/lib/x64"
 dir "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/include"
 dir "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/lib"
-dir "C:/MSYS2/MinGW64/gcc"
-dir "C:/MSYS2/MinGW64/gcc/include/c++/"
+dir "C:/"
+dir "C:/MSYS2"
 
 echo %PATH%
 
