@@ -7,13 +7,13 @@ rem dir "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Auxil
 rem dir "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Auxiliary/VS/lib/x64"
 rem dir "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/include"
 rem dir "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/lib"
-dir "C:/MSYS64/MinGW64"
-dir "C:/MSYS64/MinGW64/lib/gcc/"
-dir "C:/MSYS64/MinGW64/lib/gcc/include"
-dir "C:/MSYS64/MinGW64/lib/gcc/include/c++"
-dir "C:/MSYS64/MinGW64/lib/gcc/include/c++/4.9.2"
-dir "C:/MSYS64/MinGW64/include"
-dir "C:/MSYS64/MinGW64/x86_64-w64-mingw32"
+rem dir "C:/MSYS64/MinGW64"
+rem dir "C:/MSYS64/MinGW64/lib/gcc/"
+dir "C:/MSYS64/MinGW64/lib/gcc/x86_64-w64-mingw32"
+rem dir "C:/MSYS64/MinGW64/lib/gcc/include/c++"
+rem dir "C:/MSYS64/MinGW64/lib/gcc/include/c++/4.9.2"
+dir "C:/MSYS64/MinGW64/include/c++"
+rem dir "C:/MSYS64/MinGW64/x86_64-w64-mingw32"
 
 echo %PATH%
 
