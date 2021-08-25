@@ -1,10 +1,11 @@
 set PATH=C:/OSGeo4W/bin;C:/Program Files/Git/mingw64/bin;C:/Program Files/Git/usr/bin;./
 
-dir "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/Common7"
+dir "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/Common7/Tools"
 dir "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/SDK"
-dir "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Auxiliary"
-dir "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools"
-dir "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Redist"
+dir "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Auxiliary/Build"
+dir "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Auxiliary/VS"
+dir "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC"
+dir "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Redist/MSVC"
 
 echo %PATH%
 
