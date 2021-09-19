@@ -28,5 +28,5 @@ rem dir "C:/MSYS64/MinGW64/x86_64-w64-mingw32"
 set PATH=
 echo %PATH%
 rem cygpath -au "C:/Program Files (x86)\Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/dumpbin"
-call C:/Program Files (x86)\Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/dumpbin
+call "C:/Program Files (x86)\Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/dumpbin"
 rem C:/osgeo4w/bin/python3.exe test_call_sh.py
