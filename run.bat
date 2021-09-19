@@ -1,5 +1,5 @@
 set PATH=C:/OSGeo4W/bin;C:/Program Files/Git/mingw64/bin;C:/Program Files/Git/usr/bin;./
-dir "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.25.28610/bin/HostX86/x86"
+dir "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.25.28610/bin/HostX86/x86"
 dir "C:/Program Files (x86)/Windows Kits"
 dir "C:/Program Files (x86)/Windows Kits/10"
 dir "C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0"
