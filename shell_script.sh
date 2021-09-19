@@ -5,4 +5,7 @@ dumpbin=$(cygpath -ua "C:/Program Files (x86)\Microsoft Visual Studio/2019/Enter
 echo "$dumpbin"
 alias dumpbin="$dumpbin"
 
+dumpbin() { "$dumpbin" "$@"; }
+declare -x dumpbin
+
 dumpbin
