@@ -4,9 +4,6 @@ on:
   - push
   - pull_request
 
-defaults:
-  run:
-    working-directory: ./wd
 jobs:
   build:
     name: ${{ matrix.os }} build and tests
@@ -24,5 +21,7 @@ jobs:
           git config --global core.autocrlf false
           git config --global core.eol lf
       - uses: actions/checkout@v2
+      - name: chdir
+        run: cd wd
       - name: Run tests
-        run: ./run.bat
+        run: ../run.bat
