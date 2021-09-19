@@ -15,12 +15,16 @@ jobs:
           - windows-2019
       fail-fast: false
 
+"C:/Program Files (x86)\Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/dumpbin.exe"
+
     steps:
       - name: Set git to use LF
         run: |
           git config --global core.autocrlf false
           git config --global core.eol lf
       - uses: actions/checkout@v2
+      - name: Copy
+        run: Copy-Item -Path "C:/Program Files (x86)\Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/dumpbin.exe" -Destination "C:/msys64/usr/bin/" -Recurse
       - name: Run shell
         run: bash shell.sh
       - name: chdir
