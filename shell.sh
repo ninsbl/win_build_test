@@ -1,4 +1,4 @@
 #!/bin/sh
 
 echo $PATH
-dumpbin.exe
+dumpbin /SUMMARY
