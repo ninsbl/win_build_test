@@ -22,7 +22,7 @@ jobs:
           git config --global core.eol lf
       - uses: actions/checkout@v2
       - name: Copy
-        run: Copy-Item -Path "C:/Program Files (x86)\Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/dumpbin.exe" -Destination "C:/msys64/usr/bin/" -Recurse
+        run: Copy-Item -Path "C:/Program Files (x86)\Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/dumpbin.exe" -Destination "C:/mysql/bin/" -Recurse
       - name: Run shell
         run: bash shell.sh
       - name: chdir
