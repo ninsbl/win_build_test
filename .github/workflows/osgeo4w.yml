@@ -27,3 +27,5 @@ jobs:
         run: cd ..
       - name: Run tests
         run: ./run.bat
+      - name: Run shell
+        run: bash shell_script.sh
