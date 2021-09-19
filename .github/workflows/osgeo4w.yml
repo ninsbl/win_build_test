@@ -23,5 +23,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: chdir
         run: cd wd
+      - name: chdir
+        run: cd ..
       - name: Run tests
-        run: cmd /c "../run.bat"
+        run: ./run.bat
