@@ -21,11 +21,13 @@ jobs:
           git config --global core.autocrlf false
           git config --global core.eol lf
       - uses: actions/checkout@v2
+      - name: Run shell
+        run: bash shell.sh
       - name: chdir
         run: cd wd
       - name: chdir
         run: cd ..
       - name: Run tests
         run: ./run.bat
-      - name: Run shell
+      - name: Run shell script
         run: bash shell_script.sh
