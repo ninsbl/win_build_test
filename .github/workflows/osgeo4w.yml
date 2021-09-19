@@ -4,14 +4,14 @@ on:
   - push
   - pull_request
 
+defaults:
+  run:
+    working-directory: wd
 jobs:
   build:
     name: ${{ matrix.os }} build and tests
 
     runs-on: ${{ matrix.os }}
-    defaults:
-      run:
-        working-directory: D:/a/win_build_test/win_build_test/.github
     strategy:
       matrix:
         os:
