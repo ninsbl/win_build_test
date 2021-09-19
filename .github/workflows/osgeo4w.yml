@@ -6,7 +6,7 @@ on:
 
 defaults:
   run:
-    working-directory: wd
+    working-directory: ./wd
 jobs:
   build:
     name: ${{ matrix.os }} build and tests
