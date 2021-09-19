@@ -1,3 +1,4 @@
 #!/bin/sh
 
-dumpbin
+echo $PATH
+dumpbin.exe
