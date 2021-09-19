@@ -24,4 +24,4 @@ jobs:
       - name: chdir
         run: cd wd
       - name: Run tests
-        run: ../run.bat
+        run: cmd /c "../run.bat"
