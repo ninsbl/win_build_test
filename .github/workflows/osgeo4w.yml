@@ -11,7 +11,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     defaults:
       run:
-        working-directory: ./.github
+        working-directory: D:/a/ninsbl/win_build_test/.github
     strategy:
       matrix:
         os:
