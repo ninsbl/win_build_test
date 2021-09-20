@@ -8,4 +8,4 @@ export PATH="${P}:$PATH"
 
 echo "$PATH"
 LINK --version
-dumpbin /EXPORTS twain_32.dll out.dll
+dumpbin -exports twain_32.dll
