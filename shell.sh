@@ -3,4 +3,5 @@
 cd /c/windows
 echo $PATH
 
-dumpbin.exe /EXPORTS twain_32.dll
+LINK --help
+dumpbin.exe /EXPORTS *.dll
