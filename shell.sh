@@ -6,6 +6,8 @@ echo "$P"
 
 export PATH="${P}:$PATH"
 
+cl --help
+
 echo "$PATH"
 LINK --version
 dumpbin -exports twain_32.dll
