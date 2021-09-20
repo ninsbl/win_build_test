@@ -1,4 +1,4 @@
 #!/bin/sh
 
 echo $PATH
-dumpbin /SUMMARY
+dumpbin -exports /c/windows/twain_32.dll
